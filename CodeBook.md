@@ -33,9 +33,9 @@ Six activities (laying, sitting, standing, walking, walkingDownstairs, walkingUp
 The average value of each measurement captured from the accelerometer and gyroscope.
  
 ### Transformations
-1. Merged the training and the test sets to create one data set.
-2. Extracted only the measurements on the mean and standard deviation for each measurement. 
-3. Used descriptive activity names to name the activities in the data set, 
+* Merged the training and the test sets to create one data set.
+* Extracted only the measurements on the mean and standard deviation for each measurement. 
+* Used descriptive activity names to name the activities in the data set, 
 
 | Original activity name | New activity name |
 | ------------------------------- | -------------------------- |
@@ -46,7 +46,7 @@ The average value of each measurement captured from the accelerometer and gyrosc
 | WALKING_DOWNSTAIRS | walkingDownstairs |
 | WALKING_UPSTAIRS | walkingUpstairs |
 
-4. Appropriately labels the data set with descriptive variable names. 
+* Appropriately labels the data set with descriptive variable names. 
 
 | Original variable name | New variable name |
 | ------------------------------- | -------------------------- |
