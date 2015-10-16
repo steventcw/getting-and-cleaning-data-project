@@ -24,26 +24,31 @@ When "Process completed" is shown, a tidy data set named "result.txt" would be c
 
 ### Explanation of each step of the script
 Step 1. Merges the training and the test data sets.
+
 1. Read training data, label and subject
 2. Read test data, label and subject
 3. Merge training and test data, label and subject
 
 Step 2. Extracts only the measurements on the mean and standard deviation for each measurement.
+
 1. Read features data
 2. Get mean and standard deviation measurement variable name
 3. Extract mean and standard deviation measurement data from merged data
 4. Fixing the measurement variable name such as removing bracket, hyphen and capitalize "M" for mean and "S" for "std"
 
-Step 3. Uses descriptive activity names to name the activities in the data set
+Step 3. Uses descriptive activity names to name the activities in the data set.
+
 1. Read activity data
 2. Fixing activity name such as removing underscore, space and capitalize the first letter of second word
 3. Assign descriptive activity names to dataset
 
-Step 4: Appropriately labels the data set with descriptive variable names. 
+Step 4: Appropriately labels the data set with descriptive variable names.
+
 1. Change the column name of the dataset
 2. Merge the subject, label and data into one dataset named mergeData
 
 Step 5:  From the data set in step 4, creates a second, independent tidy data set with the average of each variable for each activity and each subject.
+
 1. Load sqldf package
 2. Define query statement to retrieve subject, activity and average of each variable for each activity and each subject
 3. Execute the query by sqldf package and assign to result set
