@@ -36,6 +36,7 @@ The average value of each measurement captured from the accelerometer and gyrosc
 1. Merged the training and the test sets to create one data set.
 2. Extracted only the measurements on the mean and standard deviation for each measurement. 
 3. Used descriptive activity names to name the activities in the data set, 
+
  Original Activity Name           | New Activity Name 
  ------------------------------- | -------------------------- 
  `LAYING`                     | `laying`
@@ -47,6 +48,7 @@ The average value of each measurement captured from the accelerometer and gyrosc
 
 
 4. Appropriately labels the data set with descriptive variable names. 
+
 | Original variable Name | New variable Name |
 | ------------------------------- | -------------------------- |
 | V1 | subject |
