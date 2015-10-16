@@ -7,6 +7,7 @@ This is an explanation on how the run_analysis.R scripts work and how they are c
 1. Download the raw data from https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip 
 2. Unzip the raw data to the r working directory and rename the folder name "UCI HAR Dataset" to "data"
 3. In R, type source("run_analysis.R"), below message would be shown,
+
 > [1] "Processing step 1 ..."
 
 > [1] "Processing step 2 ..."
