@@ -8,10 +8,15 @@ This is an explanation on how the run_analysis.R scripts work and how they are c
 2. Unzip the raw data to the r working directory and rename the folder name "UCI HAR Dataset" to "data"
 3. In R, type source("run_analysis.R"), below message would be shown,
 > [1] "Processing step 1 ..."
+
 > [1] "Processing step 2 ..."
+
 > [1] "Processing step 3 ..."
+
 > [1] "Processing step 4 ..."
+
 > [1] "Processing step 5 ..."
+
 > [1] "Process completed"
 
 4. When "Process completed" is shown, a tidy data set named "result.txt" would be created in the r working directory.
