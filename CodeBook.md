@@ -46,7 +46,6 @@ The average value of each measurement captured from the accelerometer and gyrosc
 | WALKING_DOWNSTAIRS | walkingDownstairs |
 | WALKING_UPSTAIRS | walkingUpstairs |
 
-
 4. Appropriately labels the data set with descriptive variable names. 
 
 | Original variable name | New variable name |
