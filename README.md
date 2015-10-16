@@ -20,7 +20,7 @@ This is an explanation on how the run_analysis.R scripts work and how they are c
 
 > [1] "Process completed"
 
-4. When "Process completed" is shown, a tidy data set named "result.txt" would be created in the r working directory.
+When "Process completed" is shown, a tidy data set named "result.txt" would be created in the r working directory.
 
 ### Explanation of each step of the script
 Step 1. Merges the training and the test data sets.
